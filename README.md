@@ -39,6 +39,16 @@ Welcome to the documentation for the empl project. This application provides [br
 4. [Run the application: `mvn spring-boot:run`]
 
 ## Configuration
+##SQL
+CREATE TABLE wishfy_technologies.employee (
+    id INT NOT NULL,
+    department VARCHAR(10),
+    email VARCHAR(50),
+    joining_date DATE,
+    name VARCHAR(50),
+    PRIMARY KEY (id)
+) ENGINE=InnoDB;
+
 
 ### Database Configuration
 
